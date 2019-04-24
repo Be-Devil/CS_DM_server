@@ -397,6 +397,7 @@ class my_Client():
             myTool.out('e',"TCP_client运行异常")
             self.tctimeClient.close()
             time.sleep(1)
+            myClient.ZB = ""
             self.TCP_client()
 
     # TCP_server_send
